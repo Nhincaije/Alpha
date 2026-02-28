@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Út Khờ - Trang Hoạt Động</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <head>  
+        <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2efe9;
+            text-align: center;
+        }
+        /* Logo góc trái */
+        .logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: auto;
+            z-index: 1000;
+        }
+
+        header {
+            background: #ff9900;
+            color: rgb(20, 20, 20);
+            padding: 60px 20px;
+            margin-top: 100px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .activity {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 70%;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #ff9900;
+            color: rgb(19, 18, 18);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+javascript:void(0);
+        button:hover {
+            background: #2303f3;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#trangchu">Trang chủ</a>
+        <a href="#gioithieu">Giới thiệu</a>
+        <a href="#lienhe">Liên hệ</a>
+    </div>
+    <!-- Logo Út Khờ -->
+    <img src="logo.jpg" class="logo">
+    <header>
+        <h1>Chào mừng đến với Út Khờ</h1>
+        <p>Sống Chất - Tự Do - Hài Hước</p>
+    </header>
+    <div class="container">
+        <!-- Hoạt động 1 -->
+        <div class="activity">
+            <h2>Chuyến đi tới chợ đêm Đà Lạt</h2>
+            <link rel="stylesheet" href="ChodemDaLat.css">
+            <script src="ChodemDaLat.js"></script>
+           <div class="content-wrapper" id="gioithieu"></div>
+            <a href="ChodemDaLat.html">Xem chi tiết</a>
+        </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                    <h3 onclick="openModal('dalat')" style="cursor:pointer;"><u> Chợ đêm Đà Lạt</u></h3>
+                    <p> Chợ đêm Đà Lạt là điểm hẹn rực rỡ khi thành phố sương mù lên đèn. Giữa tiết trời se lạnh, dạo bước trên những con dốc lung linh ánh sáng, bạn sẽ bị mê hoặc bởi hương thơm của bánh tráng nướng, sữa đậu nành nóng và xiên nướng nghi ngút khói. Những gian hàng len áo, quà lưu niệm xinh xắn cùng tiếng cười nói rộn ràng tạo nên một không khí vừa ấm áp vừa náo nhiệt. Đến đây, bạn không chỉ mua sắm hay thưởng thức ẩm thực mà còn cảm nhận trọn vẹn nhịp sống trẻ trung, gần gũi của Đà Lạt về đêm – một trải nghiệm khó quên cho bất cứ ai đặt chân tới thành phố này.</p>
+                    <img src="anh1.jpg" alt = "Chợ đêm Đà Lạt" width = "400px"> 
+                </td>
+            </tr>
+            <link rel="stylesheet" href="index.css">
+            <script src="ChodemDaLat.js"></script>
+            
+        </table>
+    </div>
+        <!-- Hoạt động 2 -->
+        <div class="activity">
+            <h2>Chuyến đi tới Mogoland</h2>
+            <link rel="stylesheet" href="Mongoland.css">
+            <script src="Mongoland.js"></script>
+           <div class="content-wrapper" id="mongoland"></div>
+           <a href="Mongoland.html">Xem chi tiết</a>
+        </div>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                    <h3 onclick="openModal('mongoland')" style="cursor:pointer;"><u> Mogoland</u></h3>
+                    <p> Mogoland là một khu du lịch sinh thái tuyệt vời, nơi bạn có thể tận hưởng không khí trong lành và khám phá những cảnh quan thiên nhiên hùng vĩ. Với các hoạt động như leo núi, cắm trại, và dã ngoại, Mogoland là điểm đến lý tưởng cho những ai yêu thích sự mạo hiểm và khám phá.</p>
+                    <img src="25.jpg" alt = "Mogoland" width = "400px"> 
+                </td>
+            </tr>
+            <link rel="stylesheet" href="index.css">
+            <script src="Mongoland.js"></script>
+        </table>
+    </div>
+    <!-- Hoạt động 3 -->
+        <div class="activity">
+            <h2>Những kỉ niệm đẹp trước Tết </h2>
+            <link rel="stylesheet" href="index.css">
+            <script src="Tet.js"></script>
+           <div class="content-wrapper" id="tet"></div>
+           <a href="Tet.html">Xem chi tiết</a>
+        </div>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <td>
+                    <h3 onclick="openModal('tet')" style="cursor:pointer;"><u> Những hoạt động trước Tết</u></h3>
+                    <p> Những hoạt động trước Tết như dọn dẹp nhà cửa, chuẩn bị đồ ăn, và tổ chức các buổi sum vầy gia đình là những điều không thể thiếu trong văn hóa truyền thống của người Việt. Đây là thời điểm để mọi người cùng nhau gắn kết, chia sẻ và tạo nên những kỷ niệm đáng nhớ. Nhưng không chỉ là gắn kết bên gia đình mà ta cũng có thể cùng nhau làm những hoạt động cùng với những người bạn cùng lớp với ta. </p>
+                    <img src="31.jpg" alt = "Tet" width = "400px"> 
+                </td>
+            </tr>
+            <link rel="stylesheet" href="index.css">
+            <script src="Tet.js"></script>
+        </table>
+    </div>
+ <footer>
+    <table>
+       <tr>
+        <td width="50%"> 
+     <p><b>📧 Email Trường THPT Huỳnh Văn Nghệ:<a href="https://thpthuynhvannghehcm.edu.vn/" target="_blank"> thpthvnbinhduong@gmail.com </a></b></p>
+     <p> <b>Liên Hệ Số Điện Thoại: 0382.662.348</b></p>
+     <p><b>Địa chỉ: Tổ 1, Khu Phố Khánh Lộc, Phường Tân Hiệp, Thành phố Hồ Chí Minh</b></p>
+        </td>
+        <td width="50%" style="text-align: right;">
+        <p><b>Liên Hệ: Họ và tên học sinh: Trần Văn Đạt _Lớp12.1_12</b></p>
+        </td>
+       </tr>
+    </table>
+</footer>
+</body>
